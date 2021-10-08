@@ -1,0 +1,5 @@
+[Global]
+project-id = "my-beautiful-project-39276"
+node-tags = nodeports
+node-instance-prefix = "kubernetes-node"
+multizone = true
