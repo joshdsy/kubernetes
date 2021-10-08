@@ -29,6 +29,8 @@ containerd config default | sudo tee /etc/containerd/config.toml
 
 sudo systemctl restart containerd
 
+sudo apt install kubeadm -y
+
 sudo kubeadm init --apiserver-advertise-address 192.168.0.2 \
     --service-cidr 10.96.0.0/16 \
     --pod-network-cidr 10.244.0.0/16 \
