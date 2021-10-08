@@ -35,12 +35,12 @@ variable "ssh_public_key" {
   default     = "~/.ssh/id_ed25519.pub"
 }
 
-variable "docker_version" {
-  default = "19.03"
-}
+#variable "docker_version" {
+#  default = "19.03"
+#}
 
 variable "kubernetes_version" {
-  default = "1.18.6"
+  default = "1.20.9"
 }
 
 variable "feature_gates" {
